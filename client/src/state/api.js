@@ -58,6 +58,8 @@ export const api = createApi({
   }),
 });
 
+console.log("BASE URL:", process.env.REACT_APP_BASE_URL);
+
 export const {
   useGetUserQuery,
   useGetProductsQuery,
